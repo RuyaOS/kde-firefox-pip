@@ -12,7 +12,7 @@ BuildArch: noarch
 Custumize Firefox PIP to close perfection in KDE plasma 
 
 %prep
-cp %{SOURCE1} .
+cp %{SOURCE0} .
 
 %install
 mkdir -p %{buildroot}%{_sysconfdir}/skel/.config
