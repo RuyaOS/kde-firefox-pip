@@ -16,11 +16,11 @@ Custumize Firefox PIP to close perfection in KDE plasma
 
 %install
 mkdir -p %{buildroot}%{_configdir}/skel/.config
-install -Dp -m 0644 %{SOURCE1} %{buildroot}%{_configdir}/skel/.config
+install -Dp -m 0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/skel/.config
 
 %files
 %license LICENSE
-%{_configdir}/skel/.config/kwinrulesrc
+%{_sysconfdir}/skel/.config/kwinrulesrc
 
 %changelog
 * Tue Oct 11 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 2-1
