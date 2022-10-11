@@ -1,0 +1,33 @@
+
+[1]
+Description=Firefox PIP - Arabic
+above=true
+aboverule=3
+noborder=true
+noborderrule=3
+position=
+positionrule=4
+title=ڤديو معترِض
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[2]
+Description=Firefox PIP - English
+above=true
+aboverule=3
+noborder=true
+noborderrule=3
+position=
+positionrule=4
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+
+[General]
+count=2
+rules=1,2
