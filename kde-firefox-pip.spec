@@ -12,7 +12,7 @@ BuildArch: noarch
 Custumize Firefox PIP to close perfection in KDE plasma 
 
 %prep
-#NOTHING
+cp %{SOURCE1} .
 
 %install
 mkdir -p %{buildroot}%{_sysconfdir}/skel/.config
@@ -23,5 +23,5 @@ install -Dp -m 0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/skel/.config
 %{_sysconfdir}/skel/.config/kwinrulesrc
 
 %changelog
-* Tue Oct 11 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 2-1
+* Tue Oct 11 2022 Mosaab Alzoubi <mosaab[AT]parmg[DOT]sa> - 1-1
 - Initial
