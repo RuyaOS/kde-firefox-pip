@@ -15,7 +15,7 @@ Custumize Firefox PIP to close perfection in KDE plasma
 #NOTHING
 
 %install
-mkdir -p %{buildroot}%{_configdir}/skel/.config
+mkdir -p %{buildroot}%{_sysconfdir}/skel/.config
 install -Dp -m 0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/skel/.config
 
 %files
