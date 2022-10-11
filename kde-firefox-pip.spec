@@ -4,7 +4,7 @@ Release: 1%{?dist}
 Summary: Custumize Firefox PIP to close perfection in KDE plasma 
 License: GPLv3
 URL: https://parmg.sa
-Source0: LICENCE
+Source0: LICENSE
 Source1: kwinrulesrc
 BuildArch: noarch
 
@@ -19,7 +19,7 @@ mkdir -p %{buildroot}%{_configdir}/skel/.config
 install -Dp -m 0644 %{SOURCE1} %{buildroot}%{_configdir}/skel/.config
 
 %files
-%license LICENCE
+%license LICENSE
 %{_configdir}/skel/.config/kwinrulesrc
 
 %changelog
